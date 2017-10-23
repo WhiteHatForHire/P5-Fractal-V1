@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background: black;
 }
 
 .myContainer {
@@ -8,4 +9,24 @@ body{
 
 .myContainer1 {
     position: absolute;
+}
+.heading {
+    position: absolute;
+    font-size: 30;
+    color: black;
+}
+
+.jawn {
+    color:wheat;
+    font-size: 30px;
+    font-family: "monospace", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.white {
+    color: white;
+}
+
+.subjawn>a{
+    color: white;
+    
 }

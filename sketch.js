@@ -9,21 +9,20 @@ var button;
 function setup() {
   randomcolor();
   createCanvas(600,600);
-  mySpan = createSpan('Position');
-  mySpan.parent('heading');
   slider = createSlider(0, 3.14159265359, 3.14159265359 / 4, 0.05);
   slider.parent('myContainer');
   mySpan = createSpan('Position');
   mySpan.parent('myContainer');
   colorslider = createSlider(0, 255, 0, 1);
   colorslider.parent('myContainer1');
-  mySpan2 = createSpan('Color');
-  mySpan2.parent('myContainer1');
   translider = createSlider(-25, 25, 0, 1);
   translider.parent('myContainer2');
+  mySpan2 = createSpan('Color');
+  mySpan2.parent('myContainer1');
   mySpan2 = createSpan('Shift');
   mySpan2.parent('myContainer2');
-  button = createButton('Randomize');
+  button = createButton('Randomize Color');
+  button.parent('myContainer3');
   button.mousePressed(randomize);
 }
 function draw() {
